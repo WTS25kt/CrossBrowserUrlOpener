@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Info Viewer",
+    "version": "1.0",
+    "description": "現在開いているタブのURLを取得して表示する拡張機能",
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
